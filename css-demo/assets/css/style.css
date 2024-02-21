@@ -1,0 +1,25 @@
+/*---- CSS Demo ----*/
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+/*  --------------- Global Styles -----------------  */
+
+body{
+    background-color: rgb(174, 178, 180);
+    font-family: "Cinzel", serif;
+
+}
+
+header.primary{
+    color: #1ce71c;
+
+}

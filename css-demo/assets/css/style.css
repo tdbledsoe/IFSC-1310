@@ -25,6 +25,30 @@ img {
   margin:40px auto;
 }
 
+.img-right {
+  float:right;
+  margin:10px 0 10px 10px;
+  border:2px dotted grey;
+  padding:3px;
+  border-radius:2rem
+}
+
+.img-left {
+  float:left;
+  margin:10px 10px 10px 0;
+  border:2px dotted grey;
+  padding:3px;
+  border-radius:2rem
+}
+
+.img-center {
+  display:block;
+  margin:20px auto;
+  border:2px dotted grey;
+  padding:3px;
+  border-radius:2rem
+}
+
 /*  --------------- Global Styles -----------------  */
 
 body {
@@ -95,13 +119,13 @@ header.primary nav a {
 
 header.primary nav a {
   background-color: rgb(10, 105, 112);
-  text-decoration: line-through;
   opacity:3;
 }
 
 header.primary nav a:hover {
   background-color: rgba(37, 97, 9, 0.8);
-}
+  text-decoration: line-through;
+  }
 
 #content {
   line-height:1.5;
@@ -122,6 +146,9 @@ header.primary nav a:hover {
   flex-direction:row;
   justify-content:space-around;
   gap:2rem;
+  border-bottom:4px dotted rgb(18, 4, 218);
+  padding:3rem 0;
+  border-top:4px dotted rgb(5, 2, 216);
 }
 
 #blog .post {
@@ -159,6 +186,81 @@ header.primary nav a:hover {
   color: darkgreen;
 }
 
+#practice h2 {
+  color: chocolate;
+  border-bottom:2px dotted rgb(64, 156, 110);
+}
+
+caption {
+  font-weight:bold;
+  margin:15px;
+}
+
+table {
+  border:1px solid rgb(247, 148, 20);
+  width:100%;
+  margin:20px 0;
+}
+
+th {
+  background-color:black;
+  color:blanchedalmond;
+  padding:8px;
+}
+
+tr:nth-child(2n) {
+  background-color: darkgray;
+}
+
+td {
+  border:2px double;
+  padding:8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aside[role="complementary"] {
+  background-color: aquamarine;
+  color:orange;
+  padding:3rem;
+}
+
+aside .container {
+  display:flex;
+  flex-direction:row;
+  gap:30px;
+}
+
+aside .container a:last-of-type {
+  color:rgb(107, 66, 172);
+  display:block;
+  text-align:right;
+  margin-top:3rem;
+}
+
+aside .widget footer {
+  display:none;
+}
+
+#colophon {
+  background-color:rgb(208, 243, 11);
+  text-align:center;
+  padding:5px;
+  font-size:1rem;
+}
 
 
 

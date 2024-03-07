@@ -112,7 +112,7 @@ header.primary nav a {
   text-decoration: none;
   background-color: #000000;
   padding: 10px;
-  border-radius: 25px 5px 5px;
+  border-radius: 15px 5px 5px;
   border: 2px double;
   opacity: .5;
   transition: .5s;

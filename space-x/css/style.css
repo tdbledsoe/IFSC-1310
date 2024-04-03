@@ -1,0 +1,56 @@
+/* ---- CSS Demo ---- */
+
+/*  --------------- Box Sizing -----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+/*  --------------- Responsive Images -----------------  */
+
+img {
+  max-width:100%;
+}
+
+/*  --------------- Utility Classes -----------------  */
+
+.container {
+  max-width:960px;
+  width:80vw;
+  margin:40px auto;
+}
+
+.img-right {
+  float:right;
+  margin:10px 0 10px 10px;
+  border:2px dotted grey;
+  padding:3px;
+  border-radius:2rem
+}
+
+.img-left {
+  float:left;
+  margin:10px 10px 10px 0;
+  border:2px dotted grey;
+  padding:3px;
+  border-radius:2rem
+}
+
+.img-center {
+  display:block;
+  margin:20px auto;
+  border:2px dotted grey;
+  padding:3px;
+  border-radius:2rem
+}
+
+/*  --------------- Home Page -----------------  */
+
+
+
+

@@ -13,41 +13,10 @@ html {
 
 /*  --------------- Responsive Images -----------------  */
 
-img {
-  max-width:100%;
-}
 
 /*  --------------- Utility Classes -----------------  */
 
-.container {
-  max-width:960px;
-  width:80vw;
-  margin:40px auto;
-}
 
-.img-right {
-  float:right;
-  margin:10px 0 10px 10px;
-  border:2px dotted grey;
-  padding:3px;
-  border-radius:2rem
-}
-
-.img-left {
-  float:left;
-  margin:10px 10px 10px 0;
-  border:2px dotted grey;
-  padding:3px;
-  border-radius:2rem
-}
-
-.img-center {
-  display:block;
-  margin:20px auto;
-  border:2px dotted grey;
-  padding:3px;
-  border-radius:2rem
-}
 
 /*  --------------- Home Page -----------------  */
 
@@ -58,22 +27,30 @@ body {
   font-family: "Sedan", serif;
 }
 
+body h1 {
+display: none;
+}
+
 header.primary {
 text-align: center;
 font-size: 2rem;
 margin: 25px 0;
+background-image: url(../img/spacexlogo.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 600px;
 }
 
-.troy {
-width:100%;
-height: 600px;
-background: url("../img/spacexlogo.jpg");
-background-repeat: no-repeat;
-text-indent: 100%;
-display:block;
-margin: 0 auto;
-white-space: nowrap;
-overflow: hidden;
+header.primary nav a:hover {
+  background-color: grey;
+  text-decoration:underline
+}
+
+header.primary h2 {
+position: relative;
+top: 500px;
+text-shadow: 2px 2px 20px #000000;
 }
 
 header.primary nav ul {
@@ -88,26 +65,23 @@ list-style-type: none;
 }
 
 header.primary nav a {
-  color: white;
+  color: black;
   text-decoration: none;
-  background-color:gray;
+  background-color: white;
   padding: 8px;
   border-radius: 15px 15px 15px;
   border: 4px double;
-  opacity: .5;
   transition: .5s;
 }
 
 
-#articles {
-  display: flex;
+#articles{
+  display:flex;
   flex-direction:row;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
-  border-radius: 20px;
-  padding: 0  0 2rem 0;
-  background: gray;
-  gap:2rem;
+  background: white;
+  color: black;
   }
 
   section#articles h2,
@@ -115,6 +89,14 @@ header.primary nav a {
   flex: 0 0 100%;
   text-align: center;
   font-size: 2rem;
+  }
+
+  footer {
+  text-align:center;  
+  }
+  
+  a {
+  color: white;  
   }
 
 

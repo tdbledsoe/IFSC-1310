@@ -55,38 +55,49 @@ body {
   margin:0; 
   color: white;
   font-family: "Sedan", serif;
+  background-image: url(../img/spaceearthblue.jpg);
+  background-repeat: no-repeat;
 }
 
 body h1 {
 display: none;
 }
 
+.primary img{
+padding: 120px;
+margin-left: 110px;
+}
+
 header.primary {
 text-align: center;
 font-size: 2rem;
 margin: 25px 0;
-background-image: url(../img/spacexlogo.jpg);
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover;
 height: 600px;
 }
 
+header.primary {
+background-size: 1500px 400px;
+background-position: right;
+}
+
 header.primary nav a:hover {
-  background-color: grey;
-  text-decoration:underline;
+background-color: grey;
+text-decoration:underline;
 }
 
 header.primary h2 {
 position: relative;
-top: 500px;
-text-shadow: 2px 2px 20px #000000;
+top: 50px;
+text-shadow: 4px 4px 4px #000000;
 font-size: 3.8rem;
 }
 
 #content {
-font-size: 1.2rem;
+font-size: 1.8rem;
 margin: 40px;
+text-shadow: 5px 5px 5px #000000;
 }
 
 header.primary nav ul {
@@ -99,6 +110,7 @@ max-width: 1000px;
 margin:15px auto;
 list-style-type: none;
 font-size: 2.5rem;
+bottom: 190px
 }
 
 header.primary nav a {
@@ -111,38 +123,26 @@ header.primary nav a {
   transition: .5s;
   }
 
-  #content figure {
-    float:right;
-    padding:3px;
-    border-radius:2rem
-  }
-
   #articles {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  background: white;
-  color: black;
+  position: relative;
+  background: black;
+  color: white;
   padding: 10px;
   gap: 2rem;
-  margin: 40px;
+  margin: 20px;
   }
 
   #articles .post {
   background: black;
   color: white;
-  box-shadow:0 8px 16px black;
   padding:10px;
-  border-radius:15px;
-  font-size:1rem;
+  font-size:1.8rem;
   flex:1;
   }  
-
-  .post img {
-  border-radius:15px;  
-  width: 100%;
-  }
 
   section#articles h2,
   #content h2 {
@@ -165,11 +165,22 @@ header.primary nav a {
 
 #history {
 padding:40px;
-font-size: 1.2rem;
+font-size: 1.8rem;
 }
+
 
 header h2 {
 text-align: center;
+}
+
+#history header {
+font-size: 2rem;
+text-decoration: underline;
+}
+
+#articles img{
+border-radius: 15px;
+width: 900px;
 }
 
 table {
@@ -180,23 +191,28 @@ table {
 }
 
 table caption {
-font-size: 2rem;
+font-size: 3rem;
 background-color: black;
 color:white;
 }
 
 th {
-  background-color:black;
   color:white;
   padding:8px;
+  font-size: 2rem;
+}
+
+tr{
+font-size: 1.7rem;  
 }
 
 tr:nth-child(2n) {
-  background-color: darkgray;
+  background-color: white;
+  color: black;
 }
 
 tr:hover {
-  background-color: black;
+  background-color: rgb(59, 57, 57);
   color: white;
 }
 

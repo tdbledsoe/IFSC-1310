@@ -16,6 +16,7 @@ html {
 img {
   max-width:100%;
 }
+
 /*  --------------- Utility Classes -----------------  */
 .container {
   max-width:auto;
@@ -128,12 +129,12 @@ header.primary nav a {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  position: relative;
+  position: center;
   background: black;
   color: white;
   padding: 10px;
   gap: 2rem;
-  margin: 20px;
+  margin-left: 60px;
   }
 
   #articles .post {
@@ -197,7 +198,7 @@ table {
   width:100%;
   margin:50px 0;
   font-size: 1.2rem;
-  padding-left: 40px;
+  padding-right: 25px;
 }
 
 table caption {
